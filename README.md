@@ -1,36 +1,101 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Tim Chen – Personal Portfolio
 
-## Getting Started
+This repository contains my **personal portfolio website**, built to showcase my background, skills, and projects as a **Backend / Full-Stack Developer**.
 
-First, run the development server:
+🔗 **Live Site**: [https://tim-chen.vercel.app](https://tim-chen.vercel.app)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+---
+
+## Overview
+
+This is a modern, responsive, single-page portfolio website designed for:
+
+* Job applications
+* Freelance / client introductions
+* Personal branding
+
+The site focuses on clarity, performance, and real-world engineering practices rather than visual gimmicks.
+
+---
+
+## Tech Stack
+
+### Frontend
+
+* **Next.js (App Router)**
+* **React 19**
+* **TypeScript**
+* **Tailwind CSS**
+
+### Backend / Platform
+
+* **Next.js Server Components**
+* **Vercel Hosting (Hobby Plan)**
+
+### Tooling
+
+* ESLint
+* Prettier
+* Git & GitHub
+
+---
+
+## Project Structure
+
+```
+/app            # App Router pages & layout
+/components     # Reusable UI components
+/lib            # Data & helper utilities
+/public         # Static assets
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Getting Started (Local Development)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+npm install
+npm run dev
+```
 
-## Learn More
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Deployment
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+This project is deployed using **Vercel**, with automatic deployments enabled:
 
-## Deploy on Vercel
+* Push to `main` → Production deploy
+* Push to other branches → Preview deploy
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Featured Projects
+
+* **Simple Twitter Clone**
+  A Twitter-like social application with authentication, posts, likes, comments, and real-time chat.
+
+* **Personal Portfolio (This Site)**
+  A production-ready portfolio built with Next.js and TypeScript.
+
+---
+
+## About Me
+
+**Tim Chen**
+Backend / Full-Stack Developer
+
+* Node.js, Express, RESTful APIs
+* MySQL, JWT authentication
+* Real-time features with Socket.IO
+* Based in Taiwan, open to remote opportunities
+
+Email: [destiny65740@gmail.com](mailto:destiny65740@gmail.com)
+GitHub: [https://github.com/Tim2319](https://github.com/Tim2319)
+
+---
+
+## License
+
+This project is for personal and demonstration purposes.
